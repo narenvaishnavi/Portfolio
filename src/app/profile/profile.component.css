@@ -1,0 +1,225 @@
+.header {
+    
+    text-align: center;
+    margin-left: 8em;
+    color:black;
+  }
+
+  div.scroll {
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+
+  .social{
+    
+    color: black;
+    margin-bottom: 15px;
+    text-align: center;
+    width:100%;
+  }
+  
+  a {
+    color:Black;
+    font-size: 1.5em;
+  }
+
+ h1 {
+    color:Black;
+  }
+
+  .avatar{
+  border-radius: 50%;
+  height: 230px;
+  width: 230px;
+  display: block;
+  margin:0 auto;
+  margin-top: 40px;
+}
+
+.summary {
+    max-width: 400px;
+    margin-left: 13em;
+    margin-right: auto;
+    font-size: 2em;
+    color:black;
+}
+
+
+
+/* One column grid of 250px blocks when screen smaller than 600px */
+@media screen and ( max-width: 600px)  {
+  div.scroll {
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+    .header {
+        text-align: center;
+        margin-left: 4em;
+        margin-top:-8em;
+      }
+    .summary {
+         width:250px;
+         margin-left:-1.5em;
+         margin-top:-20px;
+         font-size: 1.3em;
+     }
+    h1{
+        width:228.5px;
+        margin-left:-0.5em;
+        margin-top:5px;
+        font-size: 30px;
+        color:black;
+     }
+
+     h2{
+        margin-top:-20px;
+     }
+     .social{
+        width:228.5px;
+        margin-left:-3em;
+        margin-top:-20px;
+     }
+     .avatar{
+        width:228.5px;
+        margin-left:-1em;
+        margin-top:auto !important;
+     }
+ }
+
+   /* IphoneX */
+   @media only screen 
+   and (device-width : 375px) 
+   and (device-height : 812px) {
+    .header {
+      text-align: center;
+      margin-left: 4em;
+      margin-top:-9em;
+    }
+    .summary {
+      max-width: 400px;
+      margin-right: auto;
+      font-size: 1.5em;
+  }
+   }
+
+    /* Iphone8 plus */
+ @media only screen 
+ and (device-width : 414px) 
+ and (device-height : 736px) {
+  div.scroll {
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+
+    .header {
+        text-align: center;
+        margin-left: 6em;
+       
+      }
+      .summary {
+        max-width: 400px;
+        margin-right: auto;
+        font-size: 1.3em;
+    }
+ }
+
+ /* iPad  */
+ @media only screen and (device-width: 768px) {
+  .header {
+      text-align: center;
+      margin-left: 4em;
+      margin-top:20em;
+    }
+    .summary {
+      max-width: 400px;
+      margin-left: 6em;
+      margin-right: auto;
+      font-size: 1.5em;
+  }
+}
+
+/* Iphone8 plus */
+ @media only screen 
+ and (device-width : 414px) 
+ and (device-height : 736px) {
+  div.scroll {
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+
+    .header {
+        text-align: center;
+        margin-left: 6em;
+       
+      }
+      .summary {
+        max-width: 400px;
+        margin-right: auto;
+        font-size: 1.3em;
+    }
+ }
+
+ /* Iphone8 plus horizontal*/
+ @media only screen 
+ and (device-width : 736px) 
+ and (device-height : 414px) {
+
+    .header {
+        text-align: center;
+        margin-left: 6em;
+        overflow: scroll;
+        height:65em;
+        width:50em;
+      }
+      .summary {
+        max-width: 400px;
+        margin-left: 5em;
+        font-size: 1.3em;
+    }
+ }
+
+
+ /* iPad  */
+ @media only screen and (device-width: 768px) {
+  .header {
+      text-align: center;
+      margin-left: 4em;
+      margin-top:20em;
+    }
+    .summary {
+      max-width: 400px;
+      margin-left: 6em;
+      margin-right: auto;
+      font-size: 1.5em;
+  }
+}
+ /* iPad Pro */
+ @media only screen and (device-width: 1024px) {
+  .header {
+      text-align: center;
+      margin-left: 4em;
+      margin-top:20em;
+    }
+
+    .summary {
+      max-width: 400px;
+      margin-left: 6em;
+      margin-right: auto;
+      font-size: 1.5em;
+  }
+  h1{
+    width:228.5px;
+    margin-left:8em;
+    margin-top:5px;
+    font-size: 3em !important;
+ }
+ a{
+   font-size: 2em;
+ }
+
+}
+

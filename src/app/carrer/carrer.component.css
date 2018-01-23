@@ -1,0 +1,105 @@
+.header {
+    text-align: center;
+    margin-left: 20em;
+    font-weight: lighter;
+  }
+  p{
+    font-size: 1.4em;
+    color: #1e2c47 ;
+    font-weight: bold;
+ }
+
+
+/* One column grid of 250px blocks when screen smaller than 600px */
+@media screen and ( max-width: 600px)  {
+    .header {
+        text-align: center;
+        margin-left: 5em;
+        font-weight: lighter;
+      }
+
+   
+     h3{
+        margin-top:-20px;
+     }
+     p{
+      font-size: 1.4em;
+      color: #1e2c47 ;
+      font-weight: bold;
+   }
+ 
+   
+ }
+
+ @media only screen and ( device-width: 736px) 
+ and (device-height:414px) {
+  .header {
+      text-align: center;
+      margin-left: 5em;
+      font-weight: lighter;
+      margin-top:2em;
+      overflow: scroll;
+      height: 65em;
+    }
+  } 
+ /* IphoneX */
+ @media only screen 
+ and (device-width : 375px) 
+ and (device-height : 812px) {
+  .header {
+    text-align: center;
+    margin-left: 4em;
+  }
+  p{
+    font-size: 1.4em;
+    color: #1e2c47 ;
+    font-weight: bold;
+ }
+
+ }
+ /* Iphone8 plus */
+ @media only screen 
+ and (device-width : 414px) 
+ and (device-height : 736px) {
+    .header {
+        text-align: center;
+        margin-left: 4em;
+       
+      }
+      p{
+        font-size: 1.4em;
+        color: #1e2c47 ;
+        font-weight: bold;
+     }
+   
+ }
+
+ /* iPad  */
+ @media only screen and (device-width: 768px) {
+    .header {
+        text-align: center;
+        margin-left: 4em;
+        margin-top:20em;
+      }
+      p{
+        font-size: 1.4em;
+        color: #1e2c47 ;
+        font-weight: bold;
+     }
+   
+  }
+ /* iPad Pro */
+ @media only screen and (device-width: 1024px) {
+    .header {
+        text-align: center;
+        margin-left: 4em;
+        margin-top:20em;
+      }
+      p{
+        font-size: 1.4em;
+        color: #1e2c47 ;
+        font-weight: bold;
+     }
+   
+  }
+

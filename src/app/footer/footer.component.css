@@ -1,0 +1,39 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6495ED;
+    color: black;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  
+  .footer a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .7);;
+  }
+  
+  .footer a:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);;
+  }
+  
+  .footerCopyRight {
+    margin-top: 20px;
+  }
+  p{
+    font-size: 2em;
+  }
+
+   /* One column grid of 250px blocks when screen smaller than 600px */
+@media screen and ( max-width: 600px) {
+    .footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #6495ED;
+        color: black;
+        text-align: center;
+      }
+    }

@@ -1,0 +1,50 @@
+/* All component stylings except header and footer comes here */
+.socialItem {
+  margin: 7px;
+  opacity: 0.85;
+}
+
+.socialItem:hover {
+  opacity: 1;
+}
+
+.socialBarContainer {
+  margin-top: 30px;
+}
+
+/* common css for all cards */
+.sectionContainer {
+    margin-bottom: 40px;
+}
+
+.contentTitle {
+    font-family: Merriweather,Roboto,sans-serif;
+    opacity: .8;
+    font-weight: lighter;
+    color: #4a4a4a;
+    font-size: 20px;
+    margin: 18px;
+}
+
+.projectSection{
+    display: inline-block;
+}
+
+
+
+
+/* One column grid of 300px blocks when screen smaller than 600px */
+@media screen and (max-width: 375px) {
+    .skillList {
+        display: block !important
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .myPathImg{
+      height: 296px !important;
+      width: 400px !important;
+      margin-left: -60px !important;
+    }
+}
+

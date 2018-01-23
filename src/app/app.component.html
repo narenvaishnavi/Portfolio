@@ -1,0 +1,18 @@
+<div class="ui-g ui-g-nopad" id="header">
+  <button (click)="toggleMenu()" class="hamburger">
+        <span>toggle menu</span>
+      </button>
+  <div (click)="toggleMenu()">
+
+    <app-home [@slideInOut]="menuState"></app-home>
+
+  </div>
+  <app-footer></app-footer>
+
+
+  <div id="content-body" class="ui-g-10 ui-g-nopad">
+
+    <router-outlet></router-outlet>
+
+  </div>
+</div>

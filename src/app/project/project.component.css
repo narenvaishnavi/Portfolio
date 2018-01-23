@@ -1,0 +1,164 @@
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.carousel {
+    background:#6495ED;
+    margin-left: 15em;
+    margin-top: -28em;
+    width:70em;
+}
+.carousel .item {
+  height: 300px;
+  color: black;
+}
+h4 {
+    color: black;
+    text-decoration: underline;
+}
+
+p{
+    color: black;
+    font-size:1.6em;
+}
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+#carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.header {
+    
+    text-align: center;
+    margin-left: 11em;
+  }
+
+
+/* One column grid of 250px blocks when screen smaller than 600px */
+@media screen and ( max-width: 600px)  {
+    .carousel {
+        background:#6495ED;
+        margin-left: 1em;
+        margin-top: -42em;
+        width:110%;
+        
+    }
+
+    .header {
+        
+        text-align: center;
+      }
+      
+
+    h3 {
+        
+        text-align: center;
+        margin-top:-6.0em;
+        width:220px;
+        margin-left:-3em;
+      }
+
+    h4 {
+        color: black;
+        font-size:1.2em;
+        text-decoration: underline;
+    }
+    p{
+        color: black;
+        font-size:1.2em;
+    }
+    #response{
+        padding-bottom: 5.8em;
+       
+    }
+
+   
+ }
+
+ /* IphoneX */
+ @media only screen 
+ and (device-width : 375px) 
+ and (device-height : 812px) {
+  .header {
+    text-align: center;
+    margin-top:2em;
+  }
+
+  #response{
+    padding-bottom: 5em;
+}
+ 
+}
+
+@media only screen and (device-width: 736px){
+    .carousel {
+        background:#6495ED;
+        margin-left: -3em;
+        margin-top: -28em;
+        width:60em;
+    }
+    .header{
+        margin-top: -10em;
+        margin-left: 3em;
+    }
+
+    .carousel .item {
+        height: 250px;
+        color: black;
+      }
+}
+
+  /* iPad  */
+  @media only screen and (device-width: 768px) {
+    .carousel {
+        background:#6495ED;
+        margin-left: 1em;
+        margin-top: -18em;
+        width:100%;
+        
+    }
+    h3{
+        font-size: 4em;
+    }
+
+    #response{
+        padding-bottom: 4em;
+    }
+  }
+
+   /* iPad  */
+   @media only screen and (device-width: 1024px) {
+    .carousel {
+        background:#6495ED;
+        margin-left: 1em;
+        margin-top: -18em;
+        width:100%;
+     
+    }
+    .header {
+        
+        text-align: center;
+        margin-left: 11em;
+        margin-top:20em;
+      }
+
+      h3{
+          font-size: 4em;
+      }
+      
+      #response{
+        padding-bottom:-30em;
+    }
+    
+    
+  }
